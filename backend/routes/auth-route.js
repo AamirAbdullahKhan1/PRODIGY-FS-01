@@ -3,6 +3,7 @@ import { login, logout, signup, verifyEmail, forgotPassword, resetPassword, chec
 import { verifyToken } from "../middleware/verifyToken.js";
 
 
+
 const router = express.Router();
 
 router.post("/signup", signup);
