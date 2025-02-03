@@ -20,6 +20,7 @@ export default function ForgotPasswordPage() {
   }
 
   return (
+    
     <Card className="w-full max-w-md mx-auto">
       <CardHeader>
         <CardTitle>Forgot Password</CardTitle>

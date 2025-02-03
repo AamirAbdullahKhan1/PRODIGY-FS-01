@@ -24,6 +24,7 @@ export function VerificationEmailPage() {
   };
 
   return (
+    
     <div className="space-y-2 flex flex-col w-full mx-auto justify-center">
       <InputOTP
         maxLength={6}

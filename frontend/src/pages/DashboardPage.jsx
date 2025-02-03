@@ -1,5 +1,6 @@
 import { useAuthStore } from "@/store/authStore"
 const DashboardPage = () => {
+  
   const { user, isCheckingAuth } = useAuthStore();
  console.log(user)
   if(isCheckingAuth) {
